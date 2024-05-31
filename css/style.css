@@ -65,6 +65,7 @@ h1 {
 .image1 {
   width: 700px;
   height: 400px;
+  object-fit: contain;
 }
 
 .container1 h1 {
@@ -79,7 +80,7 @@ h1 {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 65px 180px;
+  padding: 180px 180px;
   gap: 20px;
   padding-top: 40px;
 }
@@ -113,7 +114,7 @@ h1 {
   justify-content: center;
   align-items: flex-end;
   background-color: rgb(229, 231, 235);
-  padding: 65px 400px;
+  padding: 160px 350px;
 }
 
 .sign,
@@ -166,5 +167,20 @@ h3 {
 
 .images2 {
   display: flex;
+  justify-content: center;
   gap: 30px;
+  margin: 0;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.texts {
+  text-align: center;
+  text-wrap: wrap;
+  max-width: 200px;
+}
+
+.p1h {
+  text-wrap: wrap;
+  max-width: 585px;
 }
