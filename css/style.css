@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.4;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background: rgb(31, 41, 55);
+  color: white;
+  align-items: center;
+  padding: 0px 180px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(31, 41, 55);
+  color: white;
+  padding: 32px;
+}
+
+li,
+a {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}
+
+.container1 {
+  background: rgb(31, 41, 55);
+  padding: 65px 180px;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  color: white;
+}
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.container1 p {
+  margin-top: 0;
+}
+
+.rightlinks {
+  display: flex;
+  font-size: 18px;
+  font-weight: 200;
+  gap: 12px;
+}
+
+.logo h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.image1 {
+  width: 700px;
+  height: 400px;
+}
+
+.container1 h1 {
+  color: rgb(249, 250, 248);
+  width: 300px;
+  font-weight: 900;
+  font-size: 48px;
+}
+
+.container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 65px 180px;
+  gap: 20px;
+  padding-top: 40px;
+}
+
+.quote {
+  color: black;
+  font-size: 24px;
+  font-weight: 300;
+  margin: 0;
+}
+
+.action {
+  background-color: rgb(59, 130, 246);
+  margin: 65px 180px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 100px;
+  border-radius: 10px;
+}
+
+.call p {
+  margin: 0;
+  color: white;
+  font-weight: 300;
+}
+
+.quote1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  background-color: rgb(229, 231, 235);
+  padding: 65px 400px;
+}
+
+.sign,
+.signd {
+  display: flex;
+  color: black;
+  justify-content: flex-end;
+  align-content: flex-end;
+  margin: 0;
+  font-weight: 800;
+  font-size: 24px;
+  color: rgb(31, 41, 55);
+}
+
+h2 {
+  font-weight: 600;
+  margin: 0;
+  color: white;
+}
+
+button {
+  background-color: rgb(56, 130, 246);
+  border-radius: 12px;
+  color: rgb(249, 250, 248);
+  border-style: none;
+  padding: 9px 30px;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.action button {
+  border-style: solid;
+  border-color: rgb(249, 250, 248);
+}
+
+.imageborder {
+  border: solid 4px;
+  border-radius: 18px;
+  width: 200px;
+  height: 180px;
+  border-color: rgb(56, 130, 246);
+}
+
+h3 {
+  font-size: 36px;
+  font-weight: 800;
+  color: rgb(31, 41, 55);
+  margin: 0;
+}
+
+.images2 {
+  display: flex;
+  gap: 30px;
+}
